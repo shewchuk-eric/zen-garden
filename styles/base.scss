@@ -1,16 +1,15 @@
-/*********************
-* CSS Zen Garden by: *
-* Eric Shewchuk      *
-* Nathan Reeve       *
-* Ashley Bastian     *
-*********************/
+/********************************************************************
+* CSS Zen Garden by: Eric Shewchuk, Nathan Reeve and Ashley Bastian *
+********************************************************************/
+
+// copy to terminal for auto-compiling of css: sass --watch styles/base.scss:styles/style.css
 
 // import font(s)
 // @import **a font**
 
 // import other CSS files
-@import 'mobile';
-@import 'desktop';
+@use 'mobile';
+@use 'desktop';
 
 // create variables
 
