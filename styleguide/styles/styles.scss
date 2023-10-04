@@ -1,0 +1,8 @@
+// Sea-SS garden styleguide stylesheet by Eric Shewchuk, Nathan Reeve and Ashley Bastion
+
+// copy to terminal for auto-compiling of css: sass --watch styleguide/styles/styles.scss:styleguide/styles/styles.css
+
+@use 'atoms';
+@use 'molecules';
+@use 'organisms';
+
