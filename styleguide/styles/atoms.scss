@@ -1,0 +1,77 @@
+#block {
+    background-color: $darkblue;
+    color: white;
+    @include border;
+    padding: 1rem;
+    display: inline;
+    margin: 1rem 0 .5rem 0;
+}
+
+h1 {
+    @include h1-text;
+}
+
+p {
+    @include body;
+}
+
+#h2-3 {
+    &, + p{
+        @include small-h-text;
+    color: black;
+    }
+}
+
+#h1 {
+    &, + p{
+    @include h1-text;
+    }
+}
+
+.swatch {
+    width: 150px;
+    height: 200px;
+    @include simple-border;
+    display: inline-block;
+}
+
+#c1 {
+    background-color: $darkblue;
+}
+
+#c2 {
+    background-color: $lightblue;
+}
+
+#c3 {
+    background-color: $medblue;
+}
+
+#c4 {
+    background-color: $darkbrown;
+}
+
+#c5 {
+    background-color: $tan;
+}
+
+.upper {
+    @include caps;
+}
+
+.colored {
+    @include caps;
+    background-color: $darkblue;
+    color: white;
+    padding: 1rem;
+}
+
+a {
+    color: $darkbrown;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+a:hover {
+    color: $tan;
+}

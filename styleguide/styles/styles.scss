@@ -1,8 +1,57 @@
-// Sea-SS garden styleguide stylesheet by Eric Shewchuk, Nathan Reeve and Ashley Bastion
+/********************************************************************
+* CSS Zen Garden -- Styleguide -- by: Eric Shewchuk, Nathan Reeve and Ashley Bastian *
+********************************************************************/
 
-// copy to terminal for auto-compiling of css: sass --watch styleguide/styles/styles.scss:styleguide/styles/styles.css
+// This file represents the page and will be compiled into the final css to style the page
 
-@use 'atoms';
-@use 'molecules';
-@use 'organisms';
+// Copy and paste the following line into the terminal to auto-compile scss into css during work sessions
+// sass --watch styleguide/styles/styles.scss:styleguide/styles/styles.css
 
+// Import Original Surfer and Sofia Sans Condensed fonts
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Sofia+Sans+Condensed&family=Niramit:wght@200&display=swap');
+
+// create variables
+$darkblue: #22798F;
+$medblue: #4ABFDB;
+$lightblue: #70E2FF;
+$darkbrown: #8F4F14;
+$tan: #DB904B;
+
+// create mixins
+@mixin h1-text {
+    font-family: 'Original Surfer', cursive;
+    color: $darkblue;
+    font-size: 2.5rem;
+}
+
+@mixin small-h-text {
+    font-family: 'Sofia Sans Condensed', Arial, Helvetica, sans-serif;
+    color: $medblue;
+    font-size: 2rem;
+}
+
+@mixin body {
+    font-family: 'Niramit', sans-serif;
+    color: black;
+}
+
+@mixin border {
+    border: 2px solid $tan;
+    border-radius: .5rem;
+    box-shadow: .6rem .6rem .3rem $medblue;
+}
+
+@mixin simple-border {
+    border: 1px solid black;
+}
+
+@mixin caps {
+    font-variant-caps: all-small-caps;
+    font-size: 1.2rem;
+}
+
+
+// Import component files
+@import 'organisms';
+@import 'molecules';
+@import 'atoms';

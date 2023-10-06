@@ -1,0 +1,6 @@
+.element {
+    width: 95%;
+    margin: .5rem auto;
+    @include simple-border;
+    padding: 0 1rem;
+}
