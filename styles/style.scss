@@ -5,14 +5,21 @@
 // This file represents the page and will be compiled into the final css to style the page
 
 // Copy and paste the following line into the terminal to auto-compile scss into css during work sessions
-// sass --watch styles.style.scss:styles/style.css
+// sass --watch styles/style.scss:styles/style.css
 
 // Import Original Surfer and Sofia Sans Condensed fonts
 @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Sofia+Sans+Condensed&display=swap');
 
+// create variables
+$darkblue: #22798F;
+$medblue: #4ABFDB;
+$lightblue: #70E2FF;
+$darkbrown: #8F4F14;
+$tan: #DB904B;
+
 
 // Import component files
-@import 'atoms';
-@import 'molecules';
-@import 'organisms';
 @import 'template';
+@import 'organisms';
+@import 'molecules';
+@import 'atoms';
