@@ -1,9 +1,15 @@
 /********************************************************************
 * CSS Zen Garden by: Eric Shewchuk, Nathan Reeve and Ashley Bastian *
 ********************************************************************/
-@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&family=Sofia+Sans+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Original+Surfer&family=Sofia+Sans+Condensed&family=Niramit:wght@200&display=swap");
 h1 {
+  font-family: "Original Surfer", cursive;
   color: #22798F;
+}
+
+p {
+  font-family: "Niramit", sans-serif;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

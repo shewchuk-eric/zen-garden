@@ -7,8 +7,11 @@
 // Copy and paste the following line into the terminal to auto-compile scss into css during work sessions
 // sass --watch styles/style.scss:styles/style.css
 
+// the following link is for the GitPages URL - copy and paste to see the Zen Garden outside your local development environment
+// https://shewchuk-eric.github.io/zen-garden/
+
 // Import Original Surfer and Sofia Sans Condensed fonts
-@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Sofia+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Sofia+Sans+Condensed&family=Niramit:wght@200&display=swap');
 
 // create variables
 $darkblue: #22798F;
@@ -16,6 +19,22 @@ $medblue: #4ABFDB;
 $lightblue: #70E2FF;
 $darkbrown: #8F4F14;
 $tan: #DB904B;
+
+// create mixins
+@mixin h1-text {
+    font-family: 'Original Surfer', cursive;
+    color: $darkblue;
+}
+
+@mixin small-h-text {
+    font-family: 'Sofia Sans Condensed', Arial, Helvetica, sans-serif;
+    color: $medblue;
+}
+
+@mixin body {
+    font-family: 'Niramit', sans-serif;
+    color: black;
+}
 
 
 // Import component files

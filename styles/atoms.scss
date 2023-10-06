@@ -5,7 +5,7 @@
 
 
 h1 {
-    color: $darkblue;
+    @include h1-text;
 }
 
 h2 {
@@ -17,7 +17,7 @@ h3 {
 }
 
 p {
-
+    @include body;
 }
 
 a {
