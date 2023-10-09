@@ -5,7 +5,7 @@
 // This file represents the page and will be compiled into the final css to style the page
 
 // Copy and paste the following line into the terminal to auto-compile scss into css during work sessions
-// sass --watch styles/style.scss:styles/style.css
+// sass --watch styles/style.scss:style.css
 
 // the following link is for the GitPages URL - copy and paste to see the Zen Garden outside your local development environment
 // https://shewchuk-eric.github.io/zen-garden/
@@ -24,16 +24,33 @@ $tan: #DB904B;
 @mixin h1-text {
     font-family: 'Original Surfer', cursive;
     color: $darkblue;
+    font-size: 2.5rem;
 }
 
 @mixin small-h-text {
     font-family: 'Sofia Sans Condensed', Arial, Helvetica, sans-serif;
     color: $medblue;
+    font-size: 2rem;
 }
 
 @mixin body {
     font-family: 'Niramit', sans-serif;
     color: black;
+}
+
+@mixin border {
+    border: 2px solid $tan;
+    border-radius: .5rem;
+    box-shadow: .6rem .6rem .3rem $medblue;
+}
+
+@mixin simple-border {
+    border: 1px solid black;
+}
+
+@mixin caps {
+    font-variant-caps: all-small-caps;
+    font-size: 1.2rem;
 }
 
 
