@@ -4,8 +4,8 @@ h1 {
     @include h1-text;
 }
 
-h2 {
-
+h2, h3 {
+    @include small-h-text;
 }
 
 h3 {
@@ -17,7 +17,13 @@ p {
 }
 
 a {
+    color: $darkbrown;
+    text-decoration: none;
+    transition: color .5s;
+}
 
+a:hover {
+    color: $tan;
 }
 
 ul {
