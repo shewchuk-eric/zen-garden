@@ -23,19 +23,21 @@ $tan: #DB904B;
 // create mixins
 @mixin h1-text {
     font-family: 'Original Surfer', cursive;
-    color: $darkblue;
-    font-size: 2.5rem;
+    color: $lightblue;
+    font-size: 3.5rem;
+    text-align: right;
+    padding: 2rem 0 0 0;
 }
 
 @mixin small-h-text {
     font-family: 'Sofia Sans Condensed', Arial, Helvetica, sans-serif;
-    color: $medblue;
+    color: $lightblue;
     font-size: 2rem;
 }
 
 @mixin body {
     font-family: 'Niramit', sans-serif;
-    color: black;
+    color: white;
 }
 
 @mixin border {

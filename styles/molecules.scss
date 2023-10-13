@@ -1,15 +1,19 @@
 // CSS Zen Garden by: Eric Shewchuk, Nathan Reeve and Ashley Bastian
-
-header { // this is the header -> housed inside <section class='intro'> role = banner
-
+.intro p {
+    line-height: 1.1em;
+    margin: .1em 0;
 }
 
-.summary {
-
+.summary, .preamble {
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    position: relative;
+    right: -44em;
 }
 
 .preamble {
-
+    
 }
 
 .explanation {
@@ -34,4 +38,10 @@ nav { // there are two section of <nav role='navigation> - assume both use same 
 
 footer {
 
+}
+
+@media (min-width: 600px) {
+    header { // this is the header -> housed inside <section class='intro'> role = banner
+
+    }
 }

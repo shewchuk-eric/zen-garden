@@ -4,6 +4,10 @@ h1 {
     @include h1-text;
 }
 
+.intro h1, h2, h3{ 
+    margin: 0;
+}
+
 h2, h3 {
     @include small-h-text;
 }

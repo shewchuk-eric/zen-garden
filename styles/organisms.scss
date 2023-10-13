@@ -1,14 +1,18 @@
 // CSS Zen Garden by: Eric Shewchuk, Nathan Reeve and Ashley Bastian
 
 .intro {
-
+    background-image: url(images/hero-background.webp);
+    text-align: right;
+    padding-right: 1em;
+    max-height: 576px;
 }
 
 body {
     background-color: $lightblue;
-    width: 1000px;
+    max-width: 1200px;
     margin: 1rem auto 0 auto;
-    padding: 2rem 1rem 1rem 1rem;
+    padding-top: 0;
+    @include border;
 }
 
 #zen-supporting { // main content <div> - contains .explanation, .participation, .benefits, .requirements, <footer>
