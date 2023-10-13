@@ -2,14 +2,16 @@
 .intro p {
     line-height: 1.1em;
     margin: .1em 0;
+    color: white;
+    text-align: left;
 }
 
 .summary, .preamble {
     display: flex;
     flex-direction: column;
     width: 30em;
-    position: relative;
-    right: -44em;
+    position: absolute;
+    right: 1em;
 }
 
 .preamble {

@@ -5,8 +5,9 @@
 .intro {
   background-image: url(images/hero-background.webp);
   text-align: right;
-  padding: 0 1em 2em 0;
-  max-height: 575px;
+  padding-right: 1em;
+  height: 36em;
+  position: relative;
 }
 
 body {
@@ -22,14 +23,16 @@ body {
 .intro p {
   line-height: 1.1em;
   margin: 0.1em 0;
+  color: white;
+  text-align: left;
 }
 
 .summary, .preamble {
   display: flex;
   flex-direction: column;
   width: 30em;
-  position: relative;
-  right: -44em;
+  position: absolute;
+  right: 1em;
 }
 
 h1 {
@@ -52,7 +55,7 @@ h2, h3 {
 
 p {
   font-family: "Niramit", sans-serif;
-  color: white;
+  color: black;
 }
 
 a {
