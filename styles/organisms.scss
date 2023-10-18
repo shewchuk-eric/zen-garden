@@ -2,10 +2,11 @@
 
 .intro {
     background-image: url(images/hero-background.webp);
-    text-align: right;
     padding-right: 1em;
     height: 36em;
-    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-end;
 }
 
 body {

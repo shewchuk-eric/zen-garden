@@ -4,10 +4,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Original+Surfer&family=Sofia+Sans+Condensed&family=Niramit:wght@200&display=swap");
 .intro {
   background-image: url(images/hero-background.webp);
-  text-align: right;
   padding-right: 1em;
   height: 36em;
-  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-end;
 }
 
 body {
@@ -21,30 +22,37 @@ body {
 }
 
 .intro p {
-  line-height: 1.1em;
-  margin: 0.1em 0;
+  line-height: 1em;
+  margin: 0.6em 0;
   color: white;
   text-align: left;
 }
 
 .summary, .preamble {
-  display: flex;
-  flex-direction: column;
-  width: 30em;
-  position: absolute;
-  right: 1em;
+  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1em;
+}
+
+.preamble {
+  border-radius: 0 0 1em 1em;
 }
 
 h1 {
   font-family: "Original Surfer", cursive;
   color: #70E2FF;
   font-size: 3.5rem;
-  text-align: right;
-  padding: 2rem 0 0 0;
+  padding: 2rem 0;
 }
 
 .intro h1, h2, h3 {
   margin: 0;
+}
+
+.intro h2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 1em 1em 0 0;
+  padding: 1em 0 0 0.5em;
 }
 
 h2, h3 {
@@ -59,7 +67,7 @@ p {
 }
 
 a {
-  color: #8F4F14;
+  color: #DB904B;
   text-decoration: none;
   transition: color 0.5s;
 }
