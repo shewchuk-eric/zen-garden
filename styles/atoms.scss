@@ -8,12 +8,21 @@ h1 {
     margin: 0;
 }
 
+.intro h2 {
+    background-color: rgba(0,0,0,.6);
+    border-radius: 1em 1em 0 0;
+    padding: 1em 0 0 .5em;
+}
+
 h2, h3 {
     @include small-h-text;
 }
 
 h3 {
-
+    background-color: #22798F;
+    padding-left: .5em;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
 }
 
 p {
@@ -21,7 +30,7 @@ p {
 }
 
 a {
-    color: $darkbrown;
+    color: $tan;
     text-decoration: none;
     transition: color .5s;
 }

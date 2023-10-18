@@ -2,10 +2,11 @@
 
 .intro {
     background-image: url(images/hero-background.webp);
-    text-align: right;
     padding-right: 1em;
     height: 36em;
-    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-end;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 }
 
 #zen-supporting { // main content <div> - contains .explanation, .participation, .benefits, .requirements, <footer>
-
+    margin: 1em;
 }
 
 .design-selection {
