@@ -98,7 +98,7 @@ h2, h3 {
   font-size: 2rem;
 }
 
-h3 {
+h3:not(.preamble h3) {
   background-color: #22798F;
   padding-left: 0.5em;
   border-top-right-radius: 20%;

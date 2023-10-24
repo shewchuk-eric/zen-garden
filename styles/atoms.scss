@@ -18,7 +18,7 @@ h2, h3 {
     @include small-h-text;
 }
 
-h3 {
+h3:not(.preamble h3) {
     background-color: #22798F;
     padding-left: .5em;
     border-top-right-radius: 20%;
