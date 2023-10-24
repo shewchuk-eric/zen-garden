@@ -94,6 +94,16 @@ h2, h3 {
   font-size: 2rem;
 }
 
+<<<<<<< HEAD
+=======
+h3:not(.preamble h3) {
+  background-color: #22798F;
+  padding-left: 0.5em;
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+}
+
+>>>>>>> ada63bf (fixed one background issue)
 p {
   font-family: "Niramit", sans-serif;
   color: black;
