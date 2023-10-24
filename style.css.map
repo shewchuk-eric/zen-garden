@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["styles/style.scss","styles/organisms.scss","styles/molecules.scss","styles/atoms.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAaQ;ACXR;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI,kBDMQ;ECLR;EACA;EACA;ED2BA;EACA;EACA;;;AE3CJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;;;ACbJ;EHsBI;EACA,OAPQ;EAQR;EACA;;;AGrBJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EHeI;EACA,OAdQ;EAeR;;;AGTJ;EHaI;EACA;;;AGVJ;EACI,OHTE;EGUF;EACA;;;AAGJ;EACI,OHfE","file":"style.css"}
 =======
 {"version":3,"sourceRoot":"","sources":["styles/style.scss","styles/organisms.scss","styles/molecules.scss","styles/atoms.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAaQ;ACXR;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI,kBDMQ;ECLR;EACA;EACA;ED2BA;EACA;EACA;;;ACzBJ;EACI;;;ACnBJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;;;AAuBJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACI;EACA;EACA;EACA;EACA;;AAEJ;EACI;;AAEJ;EACI;;AAEJ;EACI;;AAEJ;EACI;;AAEJ;EACI;;;ACjER;EHsBI;EACA,OAPQ;EAQR;EACA;;;AGrBJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EHeI;EACA,OAdQ;EAeR;;;AGbJ;EACI;EACA;EACA;EACA;;;AAGJ;EHUI;EACA;;;AGPJ;EACI,OHZE;EGaF;EACA;;;AAGJ;EACI,OHlBE","file":"style.css"}
 >>>>>>> 81974f8 (Updating Styles)
+=======
+{"version":3,"sourceRoot":"","sources":["styles/style.scss","styles/organisms.scss","styles/molecules.scss","styles/atoms.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAaQ;ACXR;EACI;EACA;EACA;EACA;EACA;EACA;;;AAGJ;EACI,kBDMQ;ECLR;EACA;EACA;ED2BA;EACA;EACA;;;ACzBJ;EACI;;;ACnBJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;;;AAuBJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACI;EACA;EACA;EACA;EACA;;AAEJ;EACI;;AAEJ;EACI;;AAEJ;EACI;;AAEJ;EACI;;AAEJ;EACI;;;ACjER;EHsBI;EACA,OAPQ;EAQR;EACA;;;AGrBJ;EACI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EHeI;EACA,OAdQ;EAeR;;;AGbJ;EACI;EACA;EACA;EACA;;;AAGJ;EHUI;EACA;;;AGPJ;EACI,OHZE;EGaF;EACA;;;AAGJ;EACI,OHlBE","file":"style.css"}
+>>>>>>> 63155b4 (updates from Nathan and Ashley)
