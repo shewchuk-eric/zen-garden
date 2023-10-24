@@ -42,6 +42,39 @@ body {
   border-radius: 0 0 1em 1em;
 }
 
+footer {
+  background: tan url("https://images.pexels.com/photos/6510306/pexels-photo-6510306.jpeg") no-repeat bottom;
+  background-size: cover;
+  padding: 50px 300px;
+  font-family: "Niramit", sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer a {
+  background: radial-gradient(closest-side at 30% 30%, white, #70E2FF);
+  background-color: #70E2FF;
+  border: 1px solid white;
+  border-radius: 100%;
+  color: #22798F;
+}
+footer .zen-validate-html {
+  padding: 15px 10px;
+}
+footer .zen-validate-css {
+  padding: 15px;
+}
+footer .zen-license {
+  padding: 15px 19px;
+}
+footer .zen-accessibility {
+  padding: 15px 14px;
+}
+footer .zen-github {
+  padding: 15px 19px;
+}
+
 h1 {
   font-family: "Original Surfer", cursive;
   color: #70E2FF;
