@@ -21,6 +21,10 @@ body {
   box-shadow: 0.6rem 0.6rem 0.3rem #4ABFDB;
 }
 
+#zen-supporting {
+  margin: 1em;
+}
+
 .intro p {
   line-height: 1em;
   margin: 0.6em 0;
@@ -92,6 +96,13 @@ h2, h3 {
   font-family: "Sofia Sans Condensed", Arial, Helvetica, sans-serif;
   color: #70E2FF;
   font-size: 2rem;
+}
+
+h3 {
+  background-color: #22798F;
+  padding-left: 0.5em;
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
 }
 
 p {
