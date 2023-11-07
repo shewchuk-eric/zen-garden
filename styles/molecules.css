@@ -16,36 +16,25 @@
 }
 
 footer {
-  background: tan url("https://images.pexels.com/photos/6510306/pexels-photo-6510306.jpeg") no-repeat bottom;
+  background: tan url(../images/foot.jpg) no-repeat bottom;
   background-size: cover;
-  padding: 50px 300px;
+  padding: 50px 20px;
   font-family: "Niramit", sans-serif;
-  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 footer a {
-  background: radial-gradient(closest-side at 30% 30%, white, #70E2FF);
-  background-color: #70E2FF;
-  border: 1px solid white;
+  background: radial-gradient(closest-side at 30% 30%, rgba(255, 255, 255, 0.5647058824), rgba(112, 226, 255, 0.3764705882)), linear-gradient(to top, rgba(255, 255, 255, 0.5647058824) 5%, rgba(255, 255, 255, 0));
+  border: 1px solid rgba(255, 255, 255, 0.062745098);
   border-radius: 100%;
-  color: #22798F;
+  color: white;
 }
-footer .zen-validate-html {
-  padding: 15px 10px;
-}
-footer .zen-validate-css {
-  padding: 15px;
-}
-footer .zen-license {
-  padding: 15px 19px;
-}
-footer .zen-accessibility {
-  padding: 15px 14px;
-}
-footer .zen-github {
-  padding: 15px 19px;
+
+@media (min-width: 600px) {
+  footer {
+    padding: 50px 100px;
+  }
 }
 
 /*# sourceMappingURL=molecules.css.map */
