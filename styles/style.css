@@ -43,42 +43,30 @@ body {
 }
 
 footer {
-  background: tan url("https://images.pexels.com/photos/6510306/pexels-photo-6510306.jpeg") no-repeat bottom;
+  background: tan url(../images/foot.jpg) no-repeat bottom;
   background-size: cover;
-  padding: 50px 300px;
+  padding: 50px 20px;
   font-family: "Niramit", sans-serif;
-  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 footer a {
-  background: radial-gradient(closest-side at 30% 30%, white, #70E2FF);
-  background-color: #70E2FF;
-  border: 1px solid white;
+  background: radial-gradient(closest-side at 30% 30%, rgba(255, 255, 255, 0.5647058824), rgba(112, 226, 255, 0.3764705882)), linear-gradient(to top, rgba(255, 255, 255, 0.5647058824) 5%, rgba(255, 255, 255, 0));
+  border: 1px solid rgba(255, 255, 255, 0.062745098);
   border-radius: 100%;
-  color: #22798F;
-}
-footer .zen-validate-html {
-  padding: 15px 10px;
-}
-footer .zen-validate-css {
-  padding: 15px;
-}
-footer .zen-license {
-  padding: 15px 19px;
-}
-footer .zen-accessibility {
-  padding: 15px 14px;
-}
-footer .zen-github {
-  padding: 15px 19px;
+  color: white;
 }
 
+@media (min-width: 600px) {
+  footer {
+    padding: 50px 100px;
+  }
+}
 h1 {
   font-family: "Original Surfer", cursive;
   color: #70E2FF;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   padding: 2rem 0;
 }
 
@@ -98,11 +86,40 @@ h2, h3 {
   font-size: 2rem;
 }
 
-h3 {
+h3:not(.preamble h3) {
+  background-repeat: no-repeat;
   background-color: #22798F;
   padding-left: 0.5em;
   border-top-right-radius: 20%;
   border-top-left-radius: 20%;
+}
+
+.explanation h3 {
+  background-image: url(images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.participation h3 {
+  background-image: url(images/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.benefits h3 {
+  background-image: url(images/bg3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.requirements h3 {
+  background-image: url(images/bg4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 p {
