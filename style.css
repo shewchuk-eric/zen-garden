@@ -43,7 +43,11 @@ body {
 }
 
 footer {
+<<<<<<< HEAD
   background: tan url("https://images.pexels.com/photos/6510306/pexels-photo-6510306.jpeg") no-repeat bottom;
+=======
+  background: tan url(images/foot.jpg) no-repeat bottom;
+>>>>>>> 8601f05b7df699fc74ba82fd4f67cc31c7c0a3a5
   background-size: cover;
   padding: 50px 300px;
   font-family: "Niramit", sans-serif;
@@ -78,7 +82,7 @@ footer .zen-github {
 h1 {
   font-family: "Original Surfer", cursive;
   color: #70E2FF;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   padding: 2rem 0;
 }
 
@@ -98,11 +102,40 @@ h2, h3 {
   font-size: 2rem;
 }
 
-h3 {
+h3:not(.preamble h3) {
+  background-repeat: no-repeat;
   background-color: #22798F;
   padding-left: 0.5em;
   border-top-right-radius: 20%;
   border-top-left-radius: 20%;
+}
+
+.explanation h3 {
+  background-image: url(images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.participation h3 {
+  background-image: url(images/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.benefits h3 {
+  background-image: url(images/bg3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.requirements h3 {
+  background-image: url(images/bg4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 p {

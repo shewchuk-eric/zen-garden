@@ -37,40 +37,26 @@ nav { // there are two section of <nav role='navigation> - assume both use same 
 }
 
 footer {
-    background: tan url("https://images.pexels.com/photos/6510306/pexels-photo-6510306.jpeg") no-repeat bottom;
+    background: tan url(../images/foot.jpg) no-repeat bottom;
     background-size: cover;
-    padding: 50px 300px;
+    padding: 50px 20px;
     font-family: 'Niramit', sans-serif;
-    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: space-around;
     a {
-        background: radial-gradient(closest-side at 30% 30%, white, #70E2FF);
-        background-color: #70E2FF;
-        border: 1px solid white;
+        background: radial-gradient(closest-side at 30% 30%, #ffffff90, #70E2FF60), linear-gradient(to top, #ffffff90 5%, #ffffff00);
+        border: 1px solid #ffffff10;
         border-radius: 100%;
-        color: #22798F;
-    }
-    .zen-validate-html {
-        padding: 15px 10px;
-    }
-    .zen-validate-css {
-        padding: 15px;
-    }
-    .zen-license {
-        padding: 15px 19px;
-    }
-    .zen-accessibility {
-        padding: 15px 14px;
-    }
-    .zen-github {
-        padding: 15px 19px;
+        color: white;
     }
 }
 
 @media (min-width: 600px) {
     header { // this is the header -> housed inside <section class='intro'> role = banner
 
+    }
+    footer {
+        padding: 50px 100px;
     }
 }
