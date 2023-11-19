@@ -19,6 +19,7 @@ h2, h3 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 h3 {
 
 =======
@@ -31,6 +32,16 @@ h3:not(.preamble h3) {
 >>>>>>> ada63bf (fixed one background issue)
 }
 
+=======
+h3:not(.preamble h3) {
+    background-repeat: no-repeat;
+    background-color: #22798F;
+    padding-left: .5em;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+}
+
+>>>>>>> ab38acf7d8f66e503d4aff5075fb317f9a204f03
 .explanation h3 {
     background-image: url(images/bg1.jpg);
     background-repeat: no-repeat;

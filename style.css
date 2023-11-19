@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /********************************************************************
 * CSS Zen Garden by: Eric Shewchuk, Nathan Reeve and Ashley Bastian *
 ********************************************************************/
@@ -21,6 +22,29 @@ body {
   box-shadow: 0.6rem 0.6rem 0.3rem #4ABFDB;
 }
 
+#zen-supporting {
+  margin: 1em;
+}
+
+@media (min-width: 1000px) {
+  /* … */
+  .page-wrapper {
+    display: grid;
+  }
+  #zen-intro {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1;
+  }
+  #zen-supporting {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .sidebar {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
 .intro p {
   line-height: 1em;
   margin: 0.6em 0;
@@ -39,16 +63,24 @@ body {
 }
 
 footer {
+<<<<<<< HEAD
   background: tan url(images/foot.jpg) no-repeat bottom;
   background-size: cover;
   padding: 50px 300px;
   font-family: "Niramit", sans-serif;
   font-weight: bold;
+=======
+  background: tan url(../images/foot.jpg) no-repeat bottom;
+  background-size: cover;
+  padding: 50px 20px;
+  font-family: "Niramit", sans-serif;
+>>>>>>> ab38acf7d8f66e503d4aff5075fb317f9a204f03
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 footer a {
+<<<<<<< HEAD
   background: radial-gradient(closest-side at 30% 30%, white, #70E2FF);
   background-color: #70E2FF;
   border: 1px solid white;
@@ -71,6 +103,19 @@ footer .zen-github {
   padding: 15px 19px;
 }
 
+=======
+  background: radial-gradient(closest-side at 30% 30%, rgba(255, 255, 255, 0.5647058824), rgba(112, 226, 255, 0.3764705882)), linear-gradient(to top, rgba(255, 255, 255, 0.5647058824) 5%, rgba(255, 255, 255, 0));
+  border: 1px solid rgba(255, 255, 255, 0.062745098);
+  border-radius: 100%;
+  color: white;
+}
+
+@media (min-width: 600px) {
+  footer {
+    padding: 50px 100px;
+  }
+}
+>>>>>>> ab38acf7d8f66e503d4aff5075fb317f9a204f03
 h1 {
   font-family: "Original Surfer", cursive;
   color: #70E2FF;
@@ -95,7 +140,10 @@ h2, h3 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ab38acf7d8f66e503d4aff5075fb317f9a204f03
 h3:not(.preamble h3) {
   background-repeat: no-repeat;
   background-color: #22798F;
@@ -105,8 +153,11 @@ h3:not(.preamble h3) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ada63bf (fixed one background issue)
 =======
+=======
+>>>>>>> ab38acf7d8f66e503d4aff5075fb317f9a204f03
 .explanation h3 {
   background-image: url(images/bg1.jpg);
   background-repeat: no-repeat;
@@ -135,7 +186,10 @@ h3:not(.preamble h3) {
   background-size: cover;
 }
 
+<<<<<<< HEAD
 >>>>>>> 4f776a4 (added photo backgrounds)
+=======
+>>>>>>> ab38acf7d8f66e503d4aff5075fb317f9a204f03
 p {
   font-family: "Niramit", sans-serif;
   color: black;

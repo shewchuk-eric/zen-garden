@@ -18,7 +18,7 @@ body {
 }
 
 #zen-supporting { // main content <div> - contains .explanation, .participation, .benefits, .requirements, <footer>
-
+    margin: 1em;
 }
 
 .design-selection {
@@ -32,3 +32,27 @@ body {
 .zen-resources {
 
 }
+
+@media (min-width: 1000px) {
+    /* … */
+    .page-wrapper {
+        display: grid;
+    }
+
+    #zen-intro {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row: 1;
+    }
+
+    #zen-supporting {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .sidebar {
+        grid-column: 2;
+        grid-row: 2;
+    }
+  }
+  

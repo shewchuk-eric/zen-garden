@@ -25,6 +25,13 @@ body {
   margin: 1em;
 }
 
+<<<<<<< HEAD
+=======
+.design-selection {
+  background-color: pink;
+}
+
+>>>>>>> ab38acf7d8f66e503d4aff5075fb317f9a204f03
 .intro p {
   line-height: 1em;
   margin: 0.6em 0;
