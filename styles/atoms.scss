@@ -1,7 +1,14 @@
 // CSS Zen Garden by: Eric Shewchuk, Nathan Reeve and Ashley Bastian
 
-h1 {
-    @include h1-text;
+.intro h1 {
+    @include h1-text(1.4rem);
+}
+.intro h2, .intro h3 {
+    @include small-h-text(1rem);
+}
+
+h2, h3 {
+    @include small-h-text(1.3rem);
 }
 
 .intro h1, h2, h3{ 
@@ -14,8 +21,36 @@ h1 {
     padding: 1em 0 0 .5em;
 }
 
-h2, h3 {
-    @include small-h-text;
+.intro p {
+    font-size: .7em;
+}
+
+@media (min-width: 450px) {
+    .intro h1{
+        @include h1-text(1.8rem);
+    }
+    .intro h2, .intro h3 {
+            @include small-h-text(1.2rem);
+        }
+    .intro p {
+            font-size: .9em;        
+        }
+}
+
+@media (min-width: 900px) {
+    .intro h1{
+        @include h1-text(2.2rem);
+    }
+    .intro h2, .intro h3 {
+        @include small-h-text(1.8rem);
+        }
+        .intro p {
+            font-size: 1em;
+        }
+}
+
+h3:not(.intro h1) {
+    font-size: 2.5em;
 }
 
 h3:not(.preamble h3) {
