@@ -37,18 +37,34 @@ nav { // there are two section of <nav role='navigation> - assume both use same 
 }
 
 footer {
-    background: tan url(../images/foot.jpg) no-repeat bottom;
+    background: tan url(images/foot.jpg) no-repeat bottom;
     background-size: cover;
-    padding: 50px 20px;
+    padding: 50px 10px;
+    margin: 1rem -1rem -1rem;
     font-family: 'Niramit', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     a {
         background: radial-gradient(closest-side at 30% 30%, #ffffff90, #70E2FF60), linear-gradient(to top, #ffffff90 5%, #ffffff00);
-        border: 1px solid #ffffff10;
         border-radius: 100%;
         color: white;
+    }
+    .zen-validate-html {
+        padding: 15px 10px;
+    }
+    .zen-validate-css {
+        padding: 15px;
+    }
+    .zen-license {
+        padding: 15px 19px;
+    }
+    .zen-accessibility {
+        padding: 15px 14px;
+    }
+    .zen-github {
+        padding: 15px 19px;
     }
 }
 
