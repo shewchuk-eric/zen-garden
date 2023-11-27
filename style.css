@@ -43,10 +43,14 @@ body {
 }
 
 footer {
-  background: tan url(images/foot.jpg) no-repeat bottom;
+  background: tan url(../images/foot.jpg) no-repeat bottom;
   background-size: cover;
+<<<<<<< HEAD
   padding: 50px 10px;
   margin: 1rem -1rem -1rem;
+=======
+  padding: 50px 20px;
+>>>>>>> 56bbba2428752973cda1cbf979e3ec67f01d5623
   font-family: "Niramit", sans-serif;
   display: flex;
   align-items: center;
@@ -55,6 +59,7 @@ footer {
 }
 footer a {
   background: radial-gradient(closest-side at 30% 30%, rgba(255, 255, 255, 0.5647058824), rgba(112, 226, 255, 0.3764705882)), linear-gradient(to top, rgba(255, 255, 255, 0.5647058824) 5%, rgba(255, 255, 255, 0));
+<<<<<<< HEAD
   border-radius: 100%;
   color: white;
 }
@@ -72,6 +77,11 @@ footer .zen-accessibility {
 }
 footer .zen-github {
   padding: 15px 19px;
+=======
+  border: 1px solid rgba(255, 255, 255, 0.062745098);
+  border-radius: 100%;
+  color: white;
+>>>>>>> 56bbba2428752973cda1cbf979e3ec67f01d5623
 }
 
 @media (min-width: 600px) {
@@ -79,11 +89,27 @@ footer .zen-github {
     padding: 50px 100px;
   }
 }
+<<<<<<< HEAD
 h1 {
+=======
+.intro h1 {
+>>>>>>> 56bbba2428752973cda1cbf979e3ec67f01d5623
   font-family: "Original Surfer", cursive;
   color: #70E2FF;
-  font-size: 2.5rem;
+  font-size: 1.4rem;
   padding: 2rem 0;
+}
+
+.intro h2, .intro h3 {
+  font-family: "Sofia Sans Condensed", Arial, Helvetica, sans-serif;
+  color: #70E2FF;
+  font-size: 1rem;
+}
+
+h2, h3 {
+  font-family: "Sofia Sans Condensed", Arial, Helvetica, sans-serif;
+  color: #70E2FF;
+  font-size: 1.3rem;
 }
 
 .intro h1, h2, h3 {
@@ -96,10 +122,44 @@ h1 {
   padding: 1em 0 0 0.5em;
 }
 
-h2, h3 {
-  font-family: "Sofia Sans Condensed", Arial, Helvetica, sans-serif;
-  color: #70E2FF;
-  font-size: 2rem;
+.intro p {
+  font-size: 0.7em;
+}
+
+@media (min-width: 450px) {
+  .intro h1 {
+    font-family: "Original Surfer", cursive;
+    color: #70E2FF;
+    font-size: 1.8rem;
+    padding: 2rem 0;
+  }
+  .intro h2, .intro h3 {
+    font-family: "Sofia Sans Condensed", Arial, Helvetica, sans-serif;
+    color: #70E2FF;
+    font-size: 1.2rem;
+  }
+  .intro p {
+    font-size: 0.9em;
+  }
+}
+@media (min-width: 900px) {
+  .intro h1 {
+    font-family: "Original Surfer", cursive;
+    color: #70E2FF;
+    font-size: 2.2rem;
+    padding: 2rem 0;
+  }
+  .intro h2, .intro h3 {
+    font-family: "Sofia Sans Condensed", Arial, Helvetica, sans-serif;
+    color: #70E2FF;
+    font-size: 1.8rem;
+  }
+  .intro p {
+    font-size: 1em;
+  }
+}
+h3:not(.intro h1) {
+  font-size: 2.5em;
 }
 
 h3:not(.preamble h3) {
