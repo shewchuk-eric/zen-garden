@@ -45,17 +45,11 @@ body {
 footer {
   background: tan url(images/foot.jpg) no-repeat bottom;
   background-size: cover;
-<<<<<<< HEAD
-<<<<<<< HEAD
   padding: 50px 10px;
   margin: 1rem -1rem -1rem;
-=======
   padding: 50px 20px;
->>>>>>> 56bbba2428752973cda1cbf979e3ec67f01d5623
-=======
   padding: 50px 10px;
   margin: 1rem -1rem -1rem;
->>>>>>> febd3a9346661045a9e33d115bb28fac74b25b54
   font-family: "Niramit", sans-serif;
   display: flex;
   align-items: center;
@@ -64,8 +58,6 @@ footer {
 }
 footer a {
   background: radial-gradient(closest-side at 30% 30%, rgba(255, 255, 255, 0.5647058824), rgba(112, 226, 255, 0.3764705882)), linear-gradient(to top, rgba(255, 255, 255, 0.5647058824) 5%, rgba(255, 255, 255, 0));
-<<<<<<< HEAD
-<<<<<<< HEAD
   border-radius: 100%;
   color: white;
 }
@@ -83,13 +75,9 @@ footer .zen-accessibility {
 }
 footer .zen-github {
   padding: 15px 19px;
-=======
   border: 1px solid rgba(255, 255, 255, 0.062745098);
-=======
->>>>>>> febd3a9346661045a9e33d115bb28fac74b25b54
   border-radius: 100%;
   color: white;
->>>>>>> 56bbba2428752973cda1cbf979e3ec67f01d5623
 }
 footer .zen-validate-html {
   padding: 15px 10px;
@@ -112,11 +100,7 @@ footer .zen-github {
     padding: 50px 100px;
   }
 }
-<<<<<<< HEAD
 h1 {
-=======
-.intro h1 {
->>>>>>> 56bbba2428752973cda1cbf979e3ec67f01d5623
   font-family: "Original Surfer", cursive;
   color: #70E2FF;
   font-size: 1.4rem;
