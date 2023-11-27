@@ -47,9 +47,6 @@ footer {
   background-size: cover;
   padding: 50px 10px;
   margin: 1rem -1rem -1rem;
-  padding: 50px 20px;
-  padding: 50px 10px;
-  margin: 1rem -1rem -1rem;
   font-family: "Niramit", sans-serif;
   display: flex;
   align-items: center;
@@ -58,24 +55,6 @@ footer {
 }
 footer a {
   background: radial-gradient(closest-side at 30% 30%, rgba(255, 255, 255, 0.5647058824), rgba(112, 226, 255, 0.3764705882)), linear-gradient(to top, rgba(255, 255, 255, 0.5647058824) 5%, rgba(255, 255, 255, 0));
-  border-radius: 100%;
-  color: white;
-}
-footer .zen-validate-html {
-  padding: 15px 10px;
-}
-footer .zen-validate-css {
-  padding: 15px;
-}
-footer .zen-license {
-  padding: 15px 19px;
-}
-footer .zen-accessibility {
-  padding: 15px 14px;
-}
-footer .zen-github {
-  padding: 15px 19px;
-  border: 1px solid rgba(255, 255, 255, 0.062745098);
   border-radius: 100%;
   color: white;
 }
