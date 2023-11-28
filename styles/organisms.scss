@@ -32,3 +32,10 @@ body {
 .zen-resources {
 
 }
+
+@media only screen and (Min-width: 900px) {
+    .intro {
+        grid-row: 1;
+        grid-column: 1 / span 2;
+      }
+}

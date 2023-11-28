@@ -1,9 +1,13 @@
 // CSS Zen Garden by: Eric Shewchuk, Nathan Reeve and Ashley Bastian 
 
-.page-wrapper {
+@media only screen and (Min-width: 900px) {
+    .page-wrapper {
+      display: grid;
+      padding: 1em;
+    }
 
-}
-
-.sidebar { // contains .wrapper which contains .design-selection. design-archives, zen-resources
-    background-color: pink;
+    .sidebar {
+        grid-row: 2;
+        grid-column: 2;
+      }
 }
