@@ -89,6 +89,27 @@ h3:not(.preamble h3) {
     background-size: cover;
 }
 
+.design-selection h3 {
+    background-image: url(images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.design-archives h3 {
+    background-image: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.zen-resources h3 {
+    background-image: url(images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 p {
     @include body;
 }
