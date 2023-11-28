@@ -33,9 +33,30 @@ body {
 
 }
 
+.wrapper {
+    @include body;
+}
+
 @media only screen and (Min-width: 900px) {
     .intro {
         grid-row: 1;
         grid-column: 1 / span 2;
+      }
+    
+      .benefits {
+        padding-top: 2em;
+        width: 140%;
+      }
+    
+      .requirements{
+        width: 140%;
+      }
+    
+      footer {
+        width: 121%;
+      }
+
+      .wrapper {
+        padding: 1em;
       }
 }
